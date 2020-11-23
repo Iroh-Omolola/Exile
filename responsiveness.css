@@ -1,0 +1,154 @@
+/***************************************************************************/
+/* RESPONSIVE FIXES */
+/***************************************************************************/
+/*==========  Desktop First Method  ==========*/
+@media only screen and  (max-width: 360px) {
+    html {
+        font-size: 2vw;
+      }
+  body{
+      margin: 0;
+      overflow-x: hidden;
+  }
+  main{
+      margin-left: 10px;
+      width: 350px;
+  }
+  div{
+      font-size: 2vw;
+      width: 350px;
+      justify-self: center;
+  }
+  p{
+      width: 330px;
+      height: auto;
+  }
+  img{
+      width: 330px;
+      height: auto;
+  }
+  footer{
+      width: 330px;
+      margin-left: 10px;
+  }
+}
+@media screen and (min-width: 50em) {
+    html {
+      font-size: 2vw;
+    }
+  }
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+    body{
+        margin: 0;
+        width: 460px;
+        overflow-x: hidden;
+    }
+    main{
+        margin-left: 10px;
+        width: 460px;
+    }
+    p{
+        width: 460px;
+    }
+    img{
+        width: 460px;
+        height: auto;
+    }
+    footer{
+        width: 460px;
+        margin-left: 10px;
+    }
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px){
+    body{
+        margin: 0;
+        width: 760px;
+        overflow-x: hidden;
+    }
+    main{
+        margin-left: 10px;
+        width: 760px;
+    }
+    p{
+        width: 740px;
+    }
+    img{
+        width: 740px;
+        height: auto;
+    }
+    footer{
+        width: 740px;
+        margin-left: 10px;
+    }
+  }
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    body{
+        width: 760px;
+        overflow-x: hidden;
+    }
+    main{
+        margin-left: 10px;
+        width: 750px;
+    }
+    p{
+        width: 750px;
+    }
+    img{
+        width: 740px;
+        height: auto;
+    }
+    footer{
+        width: 750px;
+        margin-left: 10px;
+    }
+  }
+
+  @media only screen and (min-width: 481px) and (max-width: 992px){
+    body{
+        width: 970px;
+        overflow-x: hidden;
+    }
+    main{
+        margin-left: 10px;
+        width: 950px;
+    }
+    p{
+        width: 950px;
+    }
+    img{
+        width: 940px;
+        height: auto;
+    }
+    footer{
+        width: 950px;
+        margin-left: 10px;
+    }
+  }
+  @media only screen and (max-width: 992px){
+    body{
+        width: 970px;
+        overflow-x: hidden;
+    }
+    main{
+        margin-left: 10px;
+        width: 950px;
+    }
+    p{
+        width: 950px;
+    }
+    img{
+        width: 940px;
+        height: auto;
+    }
+    footer{
+        width: 950px;
+        margin-left: 10px;
+    }
+  }
+ 
